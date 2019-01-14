@@ -1,0 +1,8 @@
+/* eslint-disable import/prefer-default-export */
+
+const audioButtonLinks = {
+  on: '../src/screens/home/images/music button/music_on.png',
+  off: '../src/screens/home/images/music button/music_off.png',
+};
+
+export { audioButtonLinks };

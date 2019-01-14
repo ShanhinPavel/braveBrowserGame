@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.home__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+  height: 100%;
+  min-height: 675px;
+}
+.home__nav-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.home__title {
+  text-align: center;
+  font-size: 4em;
+  margin-top: 100px;
+  color: black;
+}
+.home__button-start,
+.home__button-score,
+.home__button-contacts {
+  list-style-type: none;
+  border: 1px solid green;
+  max-width: 150px;
+  max-height: 50px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  font-size: 1.6em;
+  line-height:1.8;
+  border: 0px;
+  cursor: pointer;
+  margin-right: 15px;
+  background-color: aquamarine;
+} 
+.home__game-rules {
+  width: 100%;
+  height: 100%;
+  /*max-width: 1200px;*/
+  min-height: 600px; 
+  background-color: #79ab76;
+  margin: 0 auto;
+}
+.home__footer {
+  width: 100%;
+  height: 100%;
+  /*max-width: 1200px;*/
+  min-height: 150px;
+  background-color: #9eb8b2;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home__section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 730px;
+}
+.home__screenshots1,
+.home__screenshots2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.home__game-screenshot1,
+.home__game-screenshot2,
+.home__game-screenshot3,
+.home__game-screenshot4 {
+  border-radius: 10px;
+}
+.home__footer-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home__footer-div-skype,
+.home__footer-div-email {
+  font-size: 1.5em;
+  color: black;
+}
+.home__footer-title {
+  font-size: 35px;
+  color: black;
+  font-weight: 900;
+}
+.home__section-container-title {
+  text-align: center;
+  font-size: 3em;
+}
+.home__button-audioOnOff {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+}

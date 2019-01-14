@@ -1,0 +1,43 @@
+*{
+  outline: none !important
+}
+.battle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*max-width: 1600px;*/
+  min-height: 685px; 
+ /* margin: 0 auto;*/
+}
+.battle__hero-context {
+  position: absolute; 
+  top: 260px;
+  left: 50px;
+}
+.battle__enemy-context {
+  position: absolute; 
+  top: 260px;
+  right: 50px;
+}
+.battle__enemy-status-context {
+  position: absolute; 
+  top: 30px;
+  right: 50px;
+}
+.battle__hero-status-context {
+  position: absolute; 
+  top: 30px;
+  left: 50px;
+}
+.battle__attack-button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 0;
+  background-color: aqua;
+  position: relative;
+  margin-left: 46%;
+  margin-top: 3%;
+  cursor: pointer;
+  font-size: 20px;
+}

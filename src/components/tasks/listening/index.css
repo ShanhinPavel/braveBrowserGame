@@ -1,0 +1,35 @@
+.listening {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+.listening__title {
+  font-size: 1.5em;
+  font-style: italic;
+}
+.listening__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  height: 70px;
+  align-items: center;
+}
+.listening__input-text,
+.listening__submit-button {
+  border-radius: 10px;
+  border: 0px;
+}
+.listening__submit-button {
+  height: 30px;
+  font-size: 20px;
+  width: 80px;
+}
+.listening__input-text {
+  height: 30px;
+  font-size: 20px;
+  width: 150px;
+}

@@ -1,0 +1,39 @@
+.ruEngTranslate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+} 
+.ruEngTranslate__title {
+  font-size: 1.5em;
+  font-style: italic;
+}
+.ruEngTranslate__expression {
+  font-size: 1.5em;
+  font-style: italic;
+}
+.ruEngTranslate__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  height: 70px;
+  align-items: center
+}
+.ruEngTranslate__input-text,
+.ruEngTranslate__input-button {
+  border-radius: 10px;
+  border: 0px;
+}
+.ruEngTranslate__input-text {
+  height: 30px;
+  font-size: 20px;
+  width: 150px;
+}
+.ruEngTranslate__input-button {
+  height: 30px;
+  font-size: 20px;
+  width: 80px;
+}

@@ -1,0 +1,40 @@
+.math {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+.math__title {
+  font-size: 1.5em;
+  font-style: italic;
+}
+.math__expression {
+  font-size: 1.5em;
+  font-style: italic;
+}
+.math__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  height: 70px;
+  align-items: center;
+}
+.math__input-text,
+.math__input-button {
+  border-radius: 10px;
+  border: 0px;
+}
+.math__input-text {
+  height: 30px;
+  font-size: 20px;
+  width: 150px;
+}
+.math__input-button {
+  height: 30px;
+  font-size: 20px;
+  width: 80px;
+}
+
