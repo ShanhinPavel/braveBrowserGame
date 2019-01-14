@@ -7,7 +7,8 @@
     "test": "jest",
     "lint": "eslint **/*.js",
     "lint-fix": "eslint --fix **/*.js",
-    "start": "webpack --config webpack.config.js",
+    "start": "node node_start.js",
+    "build": "webpack --config webpack.config.js",
     "start:dev": "webpack-dev-server --inline --hot-mode development"
   },
   "author": "",
@@ -34,6 +35,8 @@
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
-    "lodash": "^4.17.11"
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.1.10"
   }
 }
