@@ -8,7 +8,7 @@ How to play:
 
 2.Enter your name and click "Start"
 
-3.For attack you have to click button 'Attack' and then choose type of task. If you give a right answer your hero attack, another way your hero will be attacked by enemy. The game continues before you win or lose. If you win will be rendered new enemy.
+3.For attack you have to solve tasks. Click button 'Attack' and then choose type of task. If you give a right answer your hero attack, another way your hero will be attacked by enemy. The game continues before you win or lose. If you win will be rendered new enemy.
 
 Features: 
 1. Monster name generated randomly. 
