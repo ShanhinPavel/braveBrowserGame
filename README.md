@@ -1,5 +1,7 @@
 Browser's game about brave hero who fights with angry orks.
 
+Link to github pages: https://shanhinpavel.github.io/browserGame/public/
+
 Screenshot - https://imgur.com/a/qmZvJ4E
 
 How to play: 
